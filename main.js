@@ -12,7 +12,6 @@ gif.addEventListener('load', () => {
 
 
 
-
     window.setTimeout(() => {
         console.log('Animation ended');
         gif.style.animationPlayState = 'paused'; // Pause animation
