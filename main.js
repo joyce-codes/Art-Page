@@ -9,9 +9,6 @@ const ctx = stickmanCanvas.getContext('2d');
 gif.addEventListener('load', () => {
     console.log('GIF loaded');
 
-
-
-
     window.setTimeout(() => {
         console.log('Animation ended');
         gif.style.animationPlayState = 'paused'; // Pause animation
