@@ -6,7 +6,6 @@ const stickmanCanvas = document.getElementById('stickmanCanvas');
 const ctx = stickmanCanvas.getContext('2d');
 
 
-
 // Listen for gif load
 gif.addEventListener('load', () => {
     console.log('GIF loaded');
